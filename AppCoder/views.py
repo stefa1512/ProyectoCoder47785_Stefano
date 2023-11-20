@@ -17,3 +17,4 @@ def show_html(request):
     contexto = {'nombre': curso}
     return render(request, 'index.html', contexto)
 
+
