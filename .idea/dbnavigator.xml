@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -12,8 +12,8 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="d861dd10-b73d-48bf-a3e1-ac10c33b6bc4">
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
+    <connection id="5ceab9d9-8449-4a0f-8ca4-80ea4a02c195">
+      <console name="Connection 1" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -22,19 +22,33 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="5ceab9d9-8449-4a0f-8ca4-80ea4a02c195" dataset="main.AppCoder_curso" active-filter-id="" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="d861dd10-b73d-48bf-a3e1-ac10c33b6bc4" active="true" signed="true">
+      <connection id="5ceab9d9-8449-4a0f-8ca4-80ea4a02c195" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="Connection 1" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.44" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
@@ -45,8 +59,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="sqlite.db" schema="main" />
-            <file path="C:\Users\stefa\PycharmProjects\ProyectoCoder47785_Stefano\db.sqlite3" schema="db" />
+            <file path="C:\Users\stefa\PycharmProjects\ProyectoCoder47785_Stefano\db.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
@@ -76,7 +89,7 @@
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="true" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="false" />
           <environment-type value="default" />
@@ -519,5 +532,9 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+    <execution-variable-types />
   </component>
 </project>
